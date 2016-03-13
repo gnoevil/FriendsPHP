@@ -1,0 +1,48 @@
+*{
+    		font-family: sans-serif;
+    	}
+        .container {
+            display: block;
+            width: 100%;
+        }
+        .main {
+            /*display: block;*/
+            /*width: 85%;*/
+        }
+    	fieldset {
+    	}
+        .login, .register {
+            margin: 60px;
+            vertical-align: top;
+            display: inline-block;
+        }
+        #login_errors, #reg_errors {
+            margin: 40px;
+        }
+    	form {
+    		margin-bottom: 20px;
+    		display: inline-block;
+    		vertical-align: top;
+    		margin-right: 30px;
+    	}
+    	label {
+    		display: block;
+    		margin-bottom: 10px;
+    	}
+    	input {
+    		width: 200px;
+    	}
+    	p {
+    		font-size: 12px;
+    	}
+    	#login_submit, #register_submit
+    	{
+    		width: 100px;
+    		color: white;
+    		background-color: black;
+    		margin-left: 205px;
+    	}
+        .navbar {
+            width: 100%;
+            margin: 30px auto;
+        }
